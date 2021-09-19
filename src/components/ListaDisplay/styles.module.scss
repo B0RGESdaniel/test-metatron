@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--claro);
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5px 5px 2px 0px;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        input {
+            margin-left: auto;
+            cursor: pointer;
+        }
+    }
+
+    .tasks {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        list-style: none;
+        gap: 12px;
+
+        .task {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            align-items: center;
+
+            input {
+                cursor: pointer;
+            }
+
+            .taskMenu {
+                display: flex;
+                flex-direction: row;
+                gap: 4px;
+                margin-left: auto;
+
+                .menuIcon {
+                    cursor: pointer;
+                }
+
+                .menuIcon:hover {
+                    filter: brightness(50%);
+                }
+
+            }
+
+        }
+    }
+}
