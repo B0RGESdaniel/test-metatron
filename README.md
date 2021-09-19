@@ -2,7 +2,7 @@ Front-end de aplicação de TODO list
 
 Foi desenvolvido usando Next.js e Sass(para estilização).
 
-O arquivo `database.js` simula um banco de dados onde as informações sobre as categorias, listas e tarefas são armazenadas
+O arquivo `database.js` simula um banco de dados onde as informações sobre as categorias, listas e tarefas são armazenadas segundo o modelo estabelecido.
 
 Tive difculdades em fazer com que as alterações feitas no banco de dados fictício refletissem na tela, portanto existem métodos `console.log()` mostrando que os novos elementos são criados porém não exibidos.
 
