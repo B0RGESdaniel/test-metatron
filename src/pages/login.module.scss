@@ -20,7 +20,7 @@
 
         button {
             border: none;
-            background-color: #490CF5;
+            background-color: var(--purple-vibrante);
             color: var(--claro);
             width: 204px;
             border-radius: 10px;
@@ -32,7 +32,7 @@
             transition: all 0.3s linear;
         }
         button:hover {
-            background-color: #6939f0;
+            background-color: var(--purple);
         }
 
         a {
@@ -48,7 +48,7 @@
         }
 
         span:hover {
-            color: #6939f0;
+            color: var(--purple);
         }
     }
     .field {
@@ -63,7 +63,7 @@
 
         input {
             padding: 2px 3px;
-            border: 2px solid #b9b8b8;
+            border: 2px solid var(--gray);
             border-radius: 10px;
             width: 200px;
             height: 23px;
@@ -71,7 +71,7 @@
 
         input:focus {
             outline: none;
-            border: 2px solid #6939f0;
+            border: 2px solid var(--purple);
         }
     }
 

@@ -25,7 +25,7 @@
                 width: 200px;
                 height: 29px;
                 padding: 3px 10px 3px 7px;
-                border: 2px solid #b9b8b8;
+                border: 2px solid var(--gray);
                 border-radius: 10px;
                 appearance: none;
             }
@@ -34,7 +34,7 @@
                 width: 180px;
                 height: 21px;
                 padding: 2px 3px;
-                border: 2px solid #b9b8b8;
+                border: 2px solid var(--gray);
                 border-radius: 10px;
             }
         }
@@ -44,7 +44,7 @@
 
     .btnCreate {
         border: none;
-        background-color: #490CF5;
+        background-color: var(--purple-vibrante);
         color: var(--claro);
         width: 130px;
         border-radius: 15px;
@@ -57,7 +57,7 @@
     }
 
     .btnCreate:hover {
-        background-color: #6939f0;
+        background-color: var(--purple);
     }
 
     .gridListas {
