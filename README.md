@@ -8,6 +8,6 @@ Tive difculdades em fazer com que as alterações feitas no banco de dados fict�
 
 Como não existe autenticação de usuário na página de Login o botão entrar leva diretamente à home.
 
-A aplicação é construída usando componentes e usando os recursos da linguagem JavaScriipt para evitar ao máximo a repetição desnecessária de código.
+A aplicação é construída usando componentes e recursos da linguagem JavaScriipt para evitar ao máximo a repetição desnecessária de código.
 
 
